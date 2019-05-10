@@ -1,0 +1,22 @@
+{
+  "private": false,
+  "name": "@dcrystalj/min-max-throttler",
+  "version": "0.0.2",
+  "description": "Throttle function based on current FPS rate",
+  "author": "dcrystalj",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "repository": "dcrystalj/min-max-throttler",
+  "scripts": {
+    "build": "bili --format esm-min --format cjs-min"
+  },
+  "devDependencies": {
+    "bili": "^4.7.4"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "lodash-es": "^4.17.11"
+  }
+}
