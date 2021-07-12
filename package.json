@@ -11,7 +11,7 @@
     "build": "bili --format esm-min --format cjs-min"
   },
   "devDependencies": {
-    "bili": "^4.7.4"
+    "bili": "^4.9.1"
   },
   "files": [
     "dist/*"
